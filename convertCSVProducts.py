@@ -2,7 +2,7 @@ import csv
 
 with open('CSVFiles/product.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
-    with open('output.txt', 'w') as txtfile:
+    with open('outputs/productOutput.txt', 'w') as txtfile:
         txtfile.write("List<String> sizes = new ArrayList<>();\n")
         txtfile.write("List<String> categories = new ArrayList<>();\n")
         txtfile.write("List<String> s3Links = new ArrayList<>();\n")
