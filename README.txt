@@ -1,0 +1,1 @@
+Turns out google doc CSV's into java inserts so as to allow us to use them in our embedded database.
