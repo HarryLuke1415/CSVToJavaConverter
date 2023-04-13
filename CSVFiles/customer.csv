@@ -1,0 +1,10 @@
+email,country,userRole,password,firstName,lastName,username,gender,age,bagItems,likedItems,dislikedItems,interestedCategories
+tom@gmail.com,UK,CUSTOMER,a,John,Hamm,wacky,MALE,23,"1,2,3","1,2,3,4,5,6","7,8,9","sunglasses,glasses, hats"
+Rsaymundo@bigpond.com,AUSTRALIA,CUSTOMER,Y6352gjsbkhiHV,James,Daniels,angryman,MALE,22,"4,6,1","4,6,1,2,7",10,"sweatshirts, hoodies, t-shirts, pants, shorts, accessories"
+hathhe.Balkan@bigpond.net.au,AUSTRALIA,CUSTOMER,GHJHhi37hvtte2,Walter,Lucas,smellyman,MALE,32,"9,12","9,12,14",15,"shoes,custom"
+46egeg@gmail.com,AUSTRALIA,CUSTOMER,BHJUWFYFyue736,Stacey,Rains,smileman,MALE,21,15,15,1,"jewellery, rings, necklaces, chains, earrings, pendants"
+yEshhsh@yahoo.com,AUSTRALIA,CUSTOMER,KHRFUGG73609J,Lucy,Popeye,smilewoman,FEMALE,24,12,"1,10,4","2,3,5,6","sweatshirts,hoodies,t-shirts,pants,short,shoes,hats,accessories, socks"
+YPoall.FFE@gmail.com,AUSTRALIA,CUSTOMER,Bhefihudgfqw625p,Corneliys,Reyes ,angrywoman,FEMALE,48,null,"4,5,6,7,8","9,10,14","shorts,shoes,hats,accessories,socks"
+Lucas.White@bigpond.com,AUSTRALIA,CUSTOMER,JBhfe,Praveen,Paranagama,brightwoman,FEMALE,18,"3,4,5,6,7,8","3,4,5,6,7,8,10",11,"accessories,socks"
+UnderFire@Britannia.co,AUSTRALIA,CUSTOMER,enideibe,George,Russell,tada,FEMALE,13,"1,2,6,8","1,2,6,8,10,11,12,13",14,"sweatshirts,hoodies,t-shirts,pants,shorts"
+8eywki@gmail.com,AUSTRALIA,CUSTOMER,MOOSE,Mufundu,Ibignogone,nfoiiwoniodfinow,FEMALE,19,"4,3,7,2","4,3,7,2,1","8,9","Lingerie,Nightwear"
