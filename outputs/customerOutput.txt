@@ -1,3 +1,4 @@
+
 List<Long> bagItems = new ArrayList<>();
 List<Long> likedItems = new ArrayList<>();
 List<Long> dislikedItems = new ArrayList<>();
@@ -180,3 +181,4 @@ bagItems.clear();
 likedItems.clear();
 dislikedItems.clear();
 interestedCategories.clear();
+

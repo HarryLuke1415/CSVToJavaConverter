@@ -3,6 +3,8 @@ import csv
 with open('CSVFiles/business.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     with open('outputs/businessOutput.txt', 'w') as txtfile:
+        txtfile.write("\n")
+        txtfile.write("List<BusinessReview> businessReviews = new ArrayList<>();\n")
         txtfile.write("List<Long> products = new ArrayList<>();\n")
         txtfile.write("List<String> categories = new ArrayList<>();\n")
         x = 0
@@ -25,8 +27,8 @@ with open('CSVFiles/business.csv', newline='') as csvfile:
             txtfile.write(f"\"{row['businessName']}\", ")
             txtfile.write(f"\"{row['ABN']}\", ")
             txtfile.write(f"\"{row['phoneNumber']}\", ")
-            txtfile.write(f"null,")
             txtfile.write(f"{row['rating']}, ")
+            txtfile.write(f"businessReviews,")
             txtfile.write("categories,")
             txtfile.write("products,")
             txtfile.write(f"\"{row['description']}\", ")
@@ -36,3 +38,4 @@ with open('CSVFiles/business.csv', newline='') as csvfile:
             txtfile.write("businessRepository.save(business" + str(x) + ");\n")
             txtfile.write("products.clear();\n")
             txtfile.write("categories.clear();\n")
+        txtfile.write("\n")

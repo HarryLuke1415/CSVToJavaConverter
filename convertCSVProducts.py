@@ -3,9 +3,11 @@ import csv
 with open('CSVFiles/product.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     with open('outputs/productOutput.txt', 'w') as txtfile:
+        txtfile.write("\n")
         txtfile.write("List<String> sizes = new ArrayList<>();\n")
         txtfile.write("List<String> categories = new ArrayList<>();\n")
         txtfile.write("List<String> s3Links = new ArrayList<>();\n")
+        txtfile.write("List<ProductReview> productReviews = new ArrayList<>();\n")
         x = 0
         for row in reader:
             x = x + 1
@@ -33,7 +35,7 @@ with open('CSVFiles/product.csv', newline='') as csvfile:
             txtfile.write(f"{row['totalLikes']}, ")
             txtfile.write(f"{row['totalDislikes']}, ")
             txtfile.write(f"{row['rating']}, ")
-            txtfile.write(f"null,")
+            txtfile.write(f" productReviews,")
             txtfile.write("categories,")
             txtfile.write("s3Links,")
             txtfile.write(f"Gender.{row['gender']}")
@@ -42,3 +44,4 @@ with open('CSVFiles/product.csv', newline='') as csvfile:
             txtfile.write("sizes.clear();\n")
             txtfile.write("categories.clear();\n")
             txtfile.write("s3Links.clear();\n")
+        txtfile.write("\n")

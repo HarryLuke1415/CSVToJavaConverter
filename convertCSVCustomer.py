@@ -3,6 +3,7 @@ import csv
 with open('CSVFiles/customer.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     with open('outputs/customerOutput.txt', 'w') as txtfile:
+        txtfile.write("\n")
         txtfile.write("List<Long> bagItems = new ArrayList<>();\n")
         txtfile.write("List<Long> likedItems = new ArrayList<>();\n")
         txtfile.write("List<Long> dislikedItems = new ArrayList<>();\n")
@@ -46,3 +47,4 @@ with open('CSVFiles/customer.csv', newline='') as csvfile:
             txtfile.write("likedItems.clear();\n")
             txtfile.write("dislikedItems.clear();\n")
             txtfile.write("interestedCategories.clear();\n")
+        txtfile.write("\n")
